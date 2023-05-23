@@ -1,0 +1,19 @@
+@primary-color: #ff0000;
+@secondary-color: #00ff00;
+
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: @primary-color;
+}
+
+a {
+    color: @secondary-color;
+    text-decoration: none;
+
+    &:hover {
+    text-decoration: underline;
+    }
+}
